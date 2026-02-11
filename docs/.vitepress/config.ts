@@ -81,7 +81,7 @@ export default {
     ],
     footer: {
       message: `Released under the GPL License`,
-      copyright: `<a href="./imprint" target="_blank">
+      copyright: `<a href="https://ml4w.com/imprint">
         <img src="ml4w.png" alt="ML4W" />
         Copyright © 2026 Stephan Raabe / Imprint / Privacy Policy
       </a>`,
