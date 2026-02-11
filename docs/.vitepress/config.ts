@@ -79,10 +79,10 @@ export default {
     socialLinks: [
       { icon: "github", link: "https://github.com/mylinuxforwork" },
     ],
-
     footer: {
       message: `Released under the GPL License`,
       copyright: `<a href="https://ml4w.com" target="_blank">
+        <img src="ml4w.png" alt="ML4W" />
         Copyright © 2026 Stephan Raabe
       </a> <a href="./imprint">Imprint</a> <a href="./privacy-policy">Privacy Policy</a>`,
     },
