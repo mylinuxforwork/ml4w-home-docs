@@ -67,3 +67,7 @@ The project can be deployed using the `publish.sh` script. This script first bui
 *   **VitePress Configuration**: The main configuration for the VitePress site, including navigation, sidebar, and theme settings, is managed in `docs/.vitepress/config.ts`.
 *   **Custom Styling**: Custom CSS for the VitePress theme is located in `docs/.vitepress/theme/custom.css` and `docs/.vitepress/theme/style.css`.
 *   **Assets**: Static assets such as images and favicons are stored in `docs/public/`.
+
+## Instructions
+
+- When I ask for all spelling and grammar corrections only check only md files in ./docs and exclude ./docs/.vitepress Please only suggest obvious spelling mistakes and inappropriate English expressions.
