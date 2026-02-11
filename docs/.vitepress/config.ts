@@ -1,7 +1,7 @@
 // .vitepress/config.ts
 export default {
-  title: 'ML4W Dotfiles Installer Wiki',
-  description: 'Easy installer app for dotfiles configurations',
+  title: 'Welcome to ML4W - MyLinuxForWork',
+  description: 'Linux tutorials, apps and the ML4W OS - Dotfiles for Hyprland. An advanced and full-featured configuration for the dynamic tiling window manager Hyprland.',
   base: "/ml4w-home/",
   lastUpdated: true,
   cleanUrls: true,
@@ -11,45 +11,30 @@ export default {
   ],
 
   themeConfig: {
-    siteTitle: "ML4W Dotfiles Installer",
-    logo: "/com.ml4w.dotfilesinstaller.svg",
+    siteTitle: "Welcome to ML4W",
+    logo: "/ml4w.svg",
     outline: "deep",
     docsDir: "/docs",
-    editLink: {
-      pattern: "https://github.com/mylinuxforwork/dotfiles-installer/tree/master/docs/:path",
-      text: "Edit this page on GitHub",
-    },
     nav: [
       { text: "Home", link: "/" },
-      { text: "About", link: "/getting-started/overview" },
-     {
-        text: "0.9.9",
-        items: [
-          {
-            // todo; add CHANGELOG.md in dotfiles-installer repo 
-            text: 'Changelog',
-            link: '/changelog.md'
-          },
-        ],
-      },
       {
         text: "More",
         items: [
           {
-            text: 'ML4W Dotfiles for Hyprland',
-            link: 'https://mylinuxforwork.github.io/dotfiles/'
+            text: 'ML4W OS - Dotfiles for Hyprland',
+            link: 'https://ml4w.com/os/'
           },
           {
-            text: 'ML4W Hyprland Starter',
-            link: 'https://github.com/mylinuxforwork/hyprland-starter'
+            text: 'Dotfiles Installer',
+            link: 'https://ml4w.com/dotfiles-installer/'
+          },
+          {
+            text: 'ML4W on YouTube',
+            link: 'https://www.youtube.com/channel/UC0sUzmZ0CHvVCVrpRfGKZfw'
           },
           {
             text: 'Wallpapers',
             link: 'https://github.com/mylinuxforwork/wallpaper'
-          },
-          {
-           text: 'Contributing to wiki →',
-           link: '/dev/contributing'
           },
           // we will add this in future.
           // {
@@ -81,39 +66,13 @@ export default {
 
       '/': [
         {
-          text: "Getting Started",
+          text: "General",
           // collapsed: false,
           items: [
-            { text: "Overview", link: "/getting-started/overview" },
-            { text: "Install", link: "/getting-started/install" },
-            { text: "Update", link: "/getting-started/update" },
+            { text: "Imprint", link: "/imprint" },
+            { text: "Privacy Policy", link: "/privacy-policy" }
           ],
-        },
-        {
-          text: "Install Dotfiles",
-          // collapsed: false,
-          items: [
-            { text: "Load a .dotinst File", link: "/install/load-dotinst" },
-            { text: "Backup your configuration", link: "/install/backup" },
-            { text: "Define Settings", link: "/install/settings" },
-            { text: "Restore your Dotfiles Settings", link: "/install/restore" },
-            { text: "Protect your Customization", link: "/install/protect" },
-            { text: "Run the Installation", link: "/install/installation" },
-          ],
-        },
-        {
-          text: "For Developers",
-          // collapsed: false,
-          items: [
-            { text: "Overview", link: "/dev/overview" },
-            { text: "Prepare a GitHub repository", link: "/dev/prepare-git-repository" },
-            { text: "Create a project", link: "/dev/create-project" },
-            { text: "Sync files", link: "/dev/sync-files" },
-            { text: "Publish your Dotfiles", link: "/dev/publish-dotfiles" },
-            { text: "Example .dotinst files", link: "/dev/examples" },
-            { text: "Contributing to wiki", link: "/dev/contributing" },
-          ],
-        },
+        }
       ],
     },
 
@@ -122,15 +81,10 @@ export default {
     ],
 
     footer: {
-      message: "Released under the GPL License",
+      message: `Released under the GPL License`,
       copyright: `<a href="https://ml4w.com" target="_blank">
-        <img src="/dotfiles-installer/ml4w.png" alt="ML4W" />
-        Copyright © 2025 Stephan Raabe
-      </a>`,
-    },
-
-    search: {
-      provider: "local",
+        Copyright © 2026 Stephan Raabe
+      </a> <a href="./imprint">Imprint</a> <a href="./privacy-policy">Privacy Policy</a>`,
     },
 
     returnToTopLabel: 'Go to Top',

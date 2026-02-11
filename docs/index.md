@@ -3,49 +3,32 @@ layout: home
 pageClass: home-page
 
 hero:
-  name: "The Dotfiles Installer"
+  name: "Welcome to ML4W"
   image:
-    src: /com.ml4w.dotfilesinstaller.svg
-    alt: Linux logo
+    src: /ml4w.svg
+    alt: ML4W logo
     style: "width: 200px; height: auto;"  
-  tagline: Install Dotfiles easily, fast and secure. 
+  tagline: Linux tutorials, apps and the ML4W OS. 
   actions:
     - theme: brand
-      text: Get Started
-      link: /getting-started/overview
+      text: ML4W OS Hyprland
+      link: https://ml4w.com/os
+    - theme: brand
+      text: Dotfiles Installer
+      link: https://ml4w.com/dotfiles-installer
     - theme: alt
-      text: Install
-      link: /getting-started/install
-    - theme: alt
-      text: GitHub ↗
-      link: https://github.com/mylinuxforwork/dotfiles-installer
+      text: YouTube Channel ↗
+      link: https://www.youtube.com/channel/UC0sUzmZ0CHvVCVrpRfGKZfw
 
-features:
-  - title: Installation Wizzard
-    details: Easy to use and guided installation wizzard of multiple dotfiles in parallel
-  - title: Backup and Protect
-    details: Backup of existing configuration and protection of your personal customization
-  - title: Publish your Dotfiles
-    details: The integrated development workflow supports you to create and publish your personal dotfiles for everyone
 ---
 
-### 1. Install the Dotfiles Installer App
+Linux is an exceptional operating system that powers my business and personal life every day. It’s stable, fast, and highly customizable to meet individual needs. On my YouTube channel, I share my Arch Linux setup, share experiences with different Linux distributions, featuring window managers like Hyprland, Niri and Qtile.
 
-Install the Dotfiles Installer App from Flathub:
+In addition, I develop ML4W OS. An advanced and full-featured Operating System and Dotfiles Configuration based on the dynamic tiling window manager Hyprland. It's easy to install from a Live ISO or with the Dotfiles Installer.
 
-<a href='https://flathub.org/apps/com.ml4w.dotfilesinstaller' target="_blank">
-    <img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'/>
-</a>
+## Lastest Video
 
-### 2. Load the .dotinst
-
-Copy the path to the `.dotinst` file into the Load Configuration entry field, click on Load and follow the installation wizzard.
-
-<img
-  src="/mainscreen-dark.png"
-  alt="preview"
-  style="max-width: 900px; width: 100%; border-radius: 12px; margin: 2rem auto; display: block;"
-/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EZKFv13owz0?si=bZxzfYnKvr3yF0VQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <style>
 :root {
