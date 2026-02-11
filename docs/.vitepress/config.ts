@@ -81,10 +81,10 @@ export default {
     ],
     footer: {
       message: `Released under the GPL License`,
-      copyright: `<a href="https://ml4w.com" target="_blank">
+      copyright: `<a href="./imprint" target="_blank">
         <img src="ml4w.png" alt="ML4W" />
-        Copyright © 2026 Stephan Raabe
-      </a> <a href="./imprint">Imprint</a> <a href="./privacy-policy">Privacy Policy</a>`,
+        Copyright © 2026 Stephan Raabe / Imprint / Privacy Policy
+      </a>`,
     },
 
     returnToTopLabel: 'Go to Top',
