@@ -12,10 +12,10 @@ hero:
   actions:
     - theme: brand
       text: ML4W OS Hyprland
-      link: https://ml4w.com/os
+      link: https://ml4w.com/os/
     - theme: brand
       text: Dotfiles Installer
-      link: https://ml4w.com/dotfiles-installer
+      link: https://ml4w.com/dotfiles-installer/
     - theme: alt
       text: YouTube Channel ↗
       link: https://www.youtube.com/channel/UC0sUzmZ0CHvVCVrpRfGKZfw
